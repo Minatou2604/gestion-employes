@@ -14,13 +14,8 @@ pipeline {
     }
 
     stages {
-<<<<<<< HEAD
-        // heyyy
-        // Checkout code source Backend + Frontendh
-=======
-
-        // Checkout code source Backend + Frontendddddddddddd
->>>>>>> 05640eb748c47ea6d728d6108875c9a8342a8ab6
+        // code checkout backend + frontend
+       
         stage('Checkout Backend + Frontend') {
             steps {
                 checkout scm
