@@ -14,8 +14,8 @@ pipeline {
     }
 
     stages {
-
-        // Checkout code source Backend + Frontendddddddddddd
+        // code checkout backend + frontend
+        // heyyy
         stage('Checkout Backend + Frontend') {
             steps {
                 checkout scm
