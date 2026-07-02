@@ -16,6 +16,7 @@ pipeline {
     stages {
         // code checkout backend + frontend
         // newww
+        // heyy
         stage('Checkout Backend + Frontend') {
             steps {
                 checkout scm
